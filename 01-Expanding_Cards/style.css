@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+
+    display:flex;
+    justify-content: center;
+    margin-top: 2.5%;
+    
+}
+
+
+
+
+.image{
+    width: 8%;
+    height: 90vh;
+    border-radius: 75px;
+    margin: 10px;
+    opacity: 0.5;
+    
+}
+
+.active{
+    width: 50%;
+    height: 90vh;
+    border-radius: 75px;
+    margin: 10px;
+    color: white;
+    display: flex;
+    align-items: flex-end;
+    font-size: 30px;
+}
+
+.bigger{
+ 
+    width: 50%;
+    height: 90vh;
+    border-radius: 75px;
+    margin: 10px;
+    color: white;
+    display: flex;
+    align-items: flex-end;
+    font-size: 30px;
+    
+
+}
+.image:hover{
+    opacity: 1;
+    cursor: pointer;
+}
+
+h3{
+    visibility: hidden;
+    margin: 30px;
+    letter-spacing: 0.5px;
+    
+}
+
+.active h3{
+    visibility: visible;
+
+}
